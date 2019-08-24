@@ -15,7 +15,7 @@ let transporter = nodemailer.createTransport({
 function sendMail(message){
     let mailOptions = {
         from: '"357047750" <357047750@qq.com>', // 发送地址
-        to: '1437781143@qq.com', // 接收者
+        to: '547762104@qq.com', // 接收者
         subject: '部署通知', // 主题 
         html:message // 内容主体
     };
