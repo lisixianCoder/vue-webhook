@@ -15,7 +15,9 @@ let server = http.createServer(function(req,res){
             let event = req.header['x-gitHub-event'];
             let signature = req.headers['x-hub-signature']
             if(signature === sign(body)){
-                res.end('NOT ALLOW')
+                return res.end('NOT ALLOW')
+            }else {
+                
             }
         })
     }else{
