@@ -32,7 +32,7 @@ let server = http.createServer(function(req,res){
                  });
                   child.stdout.on('end',function(buffer){
                      let logs = Buffer.concat(buffers).toString();
-                     console.log(log)
+                     console.log(logs)
                  });
             }
         });
