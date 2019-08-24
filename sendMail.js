@@ -7,7 +7,7 @@ let transporter = nodemailer.createTransport({
     auth: {
         user: '357047750@qq.com',
         // 这里密码不是qq密码，是你设置的smtp授权码
-        pass: 'xvhghlnebjkybieh0',
+        pass: 'bqwnufwpvyhebieh',
     }
 });
 
