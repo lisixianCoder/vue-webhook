@@ -1,0 +1,6 @@
+lib
+node_moudules
+.idea
+package-lock.json
+Dockerfile
+.dockeringnore
